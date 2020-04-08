@@ -5,6 +5,11 @@ namespace ExercicioContaBancaria {
     class Program {
         static void Main(string[] args) {
 
+            /* O programa solicita dados de uma conta bancária ao usuário,
+             * dentre eles saques e depósitos que possam vir a ser realizados
+             * e retorna o valor final, após as operações, que resta em sua
+             * conta. */
+
             ContaBancaria conta;
 
             Console.Write("Entre com o número da conta: ");
